@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "synapsedemomesh"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"synapsedemomesh-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://demodataa.dfs.core.windows.net/"
+		},
+		"synapsedemomesh-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://demodataa.dfs.core.windows.net"
+		}
+	}
+}
