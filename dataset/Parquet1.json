@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "NYCTripSmall.parquet",
+				"fileName": "green_tripdata_2014-07.parquet",
 				"fileSystem": "test"
 			},
 			"compressionCodec": "snappy"
