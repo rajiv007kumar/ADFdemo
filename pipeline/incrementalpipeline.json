@@ -133,7 +133,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[usp_upsert_Student]"
+				},
+				"linkedServiceName": {
+					"referenceName": "sourceSQL",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "uspUpdateWaterMark",
@@ -154,7 +161,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[usp_write_watermark]"
+				},
+				"linkedServiceName": {
+					"referenceName": "sourceSQL",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"parameters": {
