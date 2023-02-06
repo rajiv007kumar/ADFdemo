@@ -1,0 +1,17 @@
+{
+	"name": "sourceSQL",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=localhost;initial catalog=nwn",
+			"userName": "rajiv.x.kuma@accenture.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4MjY4MzYyYS1lYzdhLTQxYTctOTQ4Yy1mOTcyY2E4NmY4MTQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IntegrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
