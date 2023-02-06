@@ -174,7 +174,7 @@
 		"parameters": {
 			"finalTableName": {
 				"type": "string",
-				"defaultValue": "FinalStudent"
+				"defaultValue": "Student"
 			},
 			"srcTableName": {
 				"type": "string",
